@@ -84,7 +84,11 @@ hr{
 /*----------------
    Courses Style 
  ----------------*/
-
+.course{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 6%;
+    border-radius: 10px;
+}
  .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -98,6 +102,20 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
+ }
+ .course-title{
+    color: #1E1E1E;
+    font-size: 18px; 
+ }
+ .course-author{
+    color: #ED6B4F;
+    font-size: 14px;
+ }
+ .course-duration{
+    color: #FF4A60;
+    padding: 2px 6px;
+    background-color: #FFE4E8;
+    border-radius: 15px;
  }
 
  .fa-star{
